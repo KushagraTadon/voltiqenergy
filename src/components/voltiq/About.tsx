@@ -66,7 +66,7 @@ export function About() {
               </div>
               <div className="space-y-4 pt-8">
                 <div className="bg-gradient-to-br from-secondary to-primary rounded-2xl p-6 text-primary-foreground">
-                  <div className="text-4xl font-bold mb-2">50MW+</div>
+                  <div className="text-4xl font-bold mb-2">1MW+</div>
                   <div className="text-sm opacity-90">Solar Installed</div>
                 </div>
                 <div className="bg-background rounded-2xl p-6 shadow-lg card-hover">
