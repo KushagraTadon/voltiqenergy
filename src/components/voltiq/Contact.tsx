@@ -1,42 +1,32 @@
 import { useScrollAnimation } from '@/hooks/useScrollAnimation';
 import { cn } from '@/lib/utils';
 import { Button } from '@/components/ui/button';
-import { 
-  Phone, 
-  Mail, 
-  MapPin, 
-  MessageCircle,
-  Linkedin,
-  Instagram,
-  Facebook
-} from 'lucide-react';
+import { Phone, Mail, MapPin, MessageCircle, Instagram } from 'lucide-react';
 
 const contactInfo = [
   {
     icon: Phone,
     label: 'Phone',
-    value: '+91 98765 43210',
-    href: 'tel:+919876543210',
+    value: '+91 73004 26820 / +91 70144 47232',
+    href: 'tel:+917300426820',
   },
   {
     icon: Mail,
     label: 'Email',
-    value: 'hello@voltiqenergy.com',
-    href: 'mailto:hello@voltiqenergy.com',
+    value: 'voltiqenergyinfra@gmail.com',
+    href: 'mailto:voltiqenergyinfra@gmail.com',
   },
   {
     icon: MapPin,
     label: 'Address',
-    value: '123 Energy Park, Sector 15, Gurugram, Haryana 122001',
+    value: '5th Floor, 09, Hansart, Gangaram Nagar, New Aatish Market, RHB, Mansarovar, Jaipur, Rajasthan 302020',
     href: 'https://maps.google.com',
   },
 ];
 
 const socialLinks = [
-  { icon: MessageCircle, label: 'WhatsApp', href: 'https://wa.me/919876543210' },
-  { icon: Linkedin, label: 'LinkedIn', href: 'https://linkedin.com/company/voltiqenergy' },
-  { icon: Instagram, label: 'Instagram', href: 'https://instagram.com/voltiqenergy' },
-  { icon: Facebook, label: 'Facebook', href: 'https://facebook.com/voltiqenergy' },
+  { icon: MessageCircle, label: 'WhatsApp', href: 'https://wa.me/917300426820' },
+  { icon: Instagram, label: 'Instagram', href: 'https://www.instagram.com/voltiq.energy/' },
 ];
 
 export function Contact() {
@@ -116,7 +106,7 @@ export function Contact() {
                   asChild
                   className="bg-primary hover:bg-primary/90 text-primary-foreground font-semibold px-12 py-6 text-lg"
                 >
-                  <a href="tel:+919876543210">
+                  <a href="tel:+917300426820">
                     <Phone className="w-5 h-5 mr-2" />
                     Get a Free Consultation
                   </a>

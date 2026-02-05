@@ -6,7 +6,7 @@ import { Quote, Star } from 'lucide-react';
 const testimonials = [
   {
     name: 'Rajesh Sharma',
-    role: 'Homeowner, Delhi',
+    role: 'Residential 5kW, Mansarovar Jaipur',
     content:
       "Switching to Voltiq's lithium inverter was the best decision for our home. We haven't faced a single power outage issue in over a year. The smart app control is incredibly convenient!",
     rating: 5,
@@ -14,7 +14,7 @@ const testimonials = [
   },
   {
     name: 'Priya Patel',
-    role: 'Office Manager, Mumbai',
+    role: 'Lithium Inverter, Jaipur',
     content:
       "Voltiq installed a complete solar solution for our office building. Our electricity bills dropped by 60%, and the after-sales support has been exceptional. Highly recommended!",
     rating: 5,
@@ -22,7 +22,7 @@ const testimonials = [
   },
   {
     name: 'Amit Gupta',
-    role: 'Factory Owner, Pune',
+    role: 'Lithium Inverter, Jaipur',
     content:
       "For our manufacturing unit, we needed reliable, high-capacity energy storage. Voltiq delivered a custom solution that handles our peak loads seamlessly. The 24/7 support gives us peace of mind.",
     rating: 5,
