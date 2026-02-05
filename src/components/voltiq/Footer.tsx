@@ -1,4 +1,4 @@
-import { Zap, MessageCircle, Linkedin, Instagram, Facebook } from 'lucide-react';
+import { Zap, MessageCircle, Instagram } from 'lucide-react';
 
 const quickLinks = [
   { href: '#about', label: 'About Us' },
@@ -9,10 +9,8 @@ const quickLinks = [
 ];
 
 const socialLinks = [
-  { icon: MessageCircle, label: 'WhatsApp', href: 'https://wa.me/919876543210' },
-  { icon: Linkedin, label: 'LinkedIn', href: 'https://linkedin.com/company/voltiqenergy' },
-  { icon: Instagram, label: 'Instagram', href: 'https://instagram.com/voltiqenergy' },
-  { icon: Facebook, label: 'Facebook', href: 'https://facebook.com/voltiqenergy' },
+  { icon: MessageCircle, label: 'WhatsApp', href: 'https://wa.me/917300426820' },
+  { icon: Instagram, label: 'Instagram', href: 'https://www.instagram.com/voltiq.energy/' },
 ];
 
 export function Footer() {
@@ -87,18 +85,24 @@ export function Footer() {
             <h3 className="font-semibold text-lg mb-4">Contact</h3>
             <ul className="space-y-3 text-muted-foreground">
               <li>
-                <a href="tel:+919876543210" className="hover:text-primary transition-colors">
-                  +91 98765 43210
+                <a href="tel:+917300426820" className="hover:text-primary transition-colors">
+                  +91 73004 26820
                 </a>
               </li>
               <li>
-                <a href="mailto:hello@voltiqenergy.com" className="hover:text-primary transition-colors">
-                  hello@voltiqenergy.com
+                <a href="tel:+917014447232" className="hover:text-primary transition-colors">
+                  +91 70144 47232
                 </a>
               </li>
               <li>
-                123 Energy Park, Sector 15,<br />
-                Gurugram, Haryana 122001
+                <a href="mailto:voltiqenergyinfra@gmail.com" className="hover:text-primary transition-colors">
+                  voltiqenergyinfra@gmail.com
+                </a>
+              </li>
+              <li>
+                5th Floor, 09, Hansart,<br />
+                Gangaram Nagar, New Aatish Market,<br />
+                RHB, Mansarovar, Jaipur 302020
               </li>
             </ul>
           </div>
