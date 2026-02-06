@@ -43,7 +43,7 @@ export function Footer() {
               onClick={() => scrollToSection('#')}
               className="flex items-center gap-3 mb-4"
             >
-              <img src={voltiqLogo} alt="Voltiq Energy" className="h-12 w-auto" />
+              <img src={voltiqLogo} alt="Voltiq Energy" className="h-16 w-auto" />
             </button>
             <p className="text-muted-foreground mb-6 max-w-md">
               Empowering India, One Watt at a Time. We provide smart power solutions 
