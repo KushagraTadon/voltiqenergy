@@ -55,7 +55,7 @@ export function Navbar() {
             <img 
               src={voltiqLogo} 
               alt="Voltiq Energy" 
-              className="h-10 lg:h-12 w-auto group-hover:scale-105 transition-transform" 
+              className="h-14 lg:h-16 w-auto group-hover:scale-105 transition-transform" 
             />
           </a>
 
