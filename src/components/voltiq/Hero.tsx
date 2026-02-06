@@ -61,11 +61,11 @@ export function Hero() {
             {/* Stats */}
             <div className="grid grid-cols-3 gap-6 mt-12 pt-8 border-t border-border">
               <div className="text-center lg:text-left">
-                <div className="text-2xl sm:text-3xl font-bold text-foreground">83+</div>
+                <div className="text-2xl sm:text-3xl font-bold text-foreground">27+</div>
                 <div className="text-sm text-muted-foreground">Projects Installed</div>
               </div>
               <div className="text-center lg:text-left">
-                <div className="text-2xl sm:text-3xl font-bold text-foreground">1MW+</div>
+                <div className="text-2xl sm:text-3xl font-bold text-foreground">230KW+</div>
                 <div className="text-sm text-muted-foreground">Capacity Installed</div>
               </div>
               <div className="text-center lg:text-left">
