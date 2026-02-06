@@ -14,7 +14,7 @@ const contactInfo = [
   {
     icon: Phone,
     label: 'Phone',
-    value: '+91 73004 26820 / +91 70144 47232',
+    value: ['+91 73004 26820', '+91 70144 47232'],
     href: 'tel:+917300426820',
   },
   {
@@ -84,7 +84,15 @@ export function Contact() {
                       <item.icon className="w-6 h-6 text-primary-foreground" />
                     </div>
                     <div className="font-semibold text-foreground mb-1">{item.label}</div>
-                    <div className="text-muted-foreground text-sm">{item.value}</div>
+                    <div className="text-muted-foreground text-sm">
+                      {Array.isArray(item.value) ? (
+                        item.value.map((v, i) => (
+                          <div key={i}>{v}</div>
+                        ))
+                      ) : (
+                        item.value
+                      )}
+                    </div>
                   </a>
                 ))}
               </div>
