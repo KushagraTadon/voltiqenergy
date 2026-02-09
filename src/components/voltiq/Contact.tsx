@@ -20,8 +20,8 @@ const contactInfo = [
   {
     icon: Mail,
     label: 'Email',
-    value: 'voltiqenergyinfra@gmail.com',
-    href: 'mailto:voltiqenergyinfra@gmail.com',
+    value: 'info@voltiqenergy.in',
+    href: 'mailto:info@voltiqenergy.in',
   },
   {
     icon: MapPin,

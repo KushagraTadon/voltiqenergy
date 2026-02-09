@@ -102,8 +102,8 @@ export function Footer() {
                 </a>
               </li>
               <li>
-                <a href="mailto:voltiqenergyinfra@gmail.com" className="hover:text-primary transition-colors">
-                  voltiqenergyinfra@gmail.com
+                <a href="mailto:info@voltiqenergy.in" className="hover:text-primary transition-colors">
+                  info@voltiqenergy.in
                 </a>
               </li>
               <li>
